@@ -1,0 +1,21 @@
+Plantão de Professores
+Salas
+
+Das 09:00h as 13:00h = 4º A ou  4º B
+
+Das 19:00h as 22:00h = 3º A
+
+No dia de OpenLab
+
+Das 16:30h as 21:30 = 4º A ou 4º B
+
+Plantão Professores
+Professor	Dia da Semana	    Início	  Término
+Marise	Quinta-feira	    19:30	    21:00
+Yoshi	Segunda-feira	    10:00	    12:00
+ 	Sexta-feira	    19:30	    21:00
+Célia	Sexta-feira	    19:30	    21:00
+Alex	Segunda-feira	    11:00	    12:00
+ 	Sexta-feira	    16:00	17:00
+FernandoQuarta-feira	    19:30	21:00
+Gerson	Sexta-feira	    16:00	17:30

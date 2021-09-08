@@ -1,0 +1,18 @@
+.div_botoes{
+    align-content: center;
+    margin-left: 10%;
+}
+
+.botao{
+    margin-left: 30px;
+    border: none;
+    padding: 10px;
+}
+
+.botao:hover{
+    background-color: rgb(150, 146, 146);
+}
+
+.graf_comum, .graf_vac, .graf_imun{
+    display: 'block';
+}

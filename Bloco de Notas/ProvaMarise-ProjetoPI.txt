@@ -1,0 +1,32 @@
+Avaliação pratica marise:
+
+	- MOntar o hardware (Arduíno + DHT11) 
+		*Ligação Física
+		* Programa DHT11
+		* Validação de variáveis coletadas
+		* Medidas
+
+	- Servidor Node 
+		*Verificação instalada LOCAL
+		* Baixar Pacotes             - Alunos precisam fazer a demonstração e explicação
+		* Instalar pacotes
+		* Start serviços
+		* Stop Serviços
+		* Perguntas:
+			   Quais são as prováveis causa do serviço não ser iniciado?
+			   Qual porta o servidor node captura os dados?
+			   Como você endereça o localhost?
+
+	- Baanco de Dados
+		*modelo MER
+		*vocde já subiu a tabela?
+		* Demonste como vc cria as tabelas?
+
+	- APLICAÇÃO
+		* modelo HLD apresente e explique
+		* modelo LLD já está pronto?
+		*Quais tecnologias vc está usando no projeto?
+		* mostre sua aplicação no html.
+		*O que vc ainda irá incluir na sua aplicação?
+		* Como os dados coletados serão apresentados?
+

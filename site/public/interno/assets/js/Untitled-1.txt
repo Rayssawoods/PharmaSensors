@@ -1,0 +1,48 @@
+                //tipo 2
+                t2.innerHTML = `${(resposta.temperatura2).toFixed(1)}°C`;
+                u2.innerHTML = `${resposta.umidade2}%`;
+                if(resposta.temperatura2 < 20 || resposta.temperatura2 > 25){
+                    s_comum.style.color = 'red';
+                    t2.style.color = 'red';
+                    s_comum.innerHTML = 'Limites de temperatura ultrapassados!';
+                    comum.className = "card-header card-header-danger card-header-icon";
+                    icone2.innerHTML = "error";
+                }
+                 else if(resposta.temperatura2 <= 21.25 || resposta.temperatura2 >= 23.75){
+                    s_comum.style.color = 'purple';
+                    t2.style.color = 'purple';
+                    s_comum.innerHTML = 'Chegando ao Limite!!';
+                    comum.className = "card-header card-header-warning card-header-icon";
+                    icone2.innerHTML = "warning";
+                }
+                else if(resposta.temperatura2 >21.25 && resposta.temperatura2 <23.75){
+                    s_comum.style.color = 'gray';
+                    t2.style.color = 'black';
+                    s_comum.innerHTML = 'dentro do limite';
+                    comum.className = "card-header card-header-success card-header-icon";
+                    icone2.innerHTML = "ac_unit";
+                
+                //tipo3
+                t3.innerHTML = `${(resposta.temperatura3).toFixed(1)}°C`;
+                u3.innerHTML = `${resposta.umidade3}%`;
+                if(resposta.temperatura3 <= -20 || resposta.temperatura3 >= 0){
+                    s_insul.style.color = 'red';
+                    t3.style.color = 'red';
+                    s_insul.innerHTML = 'Limites de temperatura ultrapassados!';
+                    insulina.className = "card-header card-header-danger card-header-icon";
+                    icone3.innerHTML = "error";
+                }
+                 else if(resposta.temperatura3 <= -15 || resposta.temperatura3 >= -5){
+                    s_insul.style.color = 'purple';
+                    t3.style.color = 'purple';
+                    s_insul.innerHTML = 'Chegando ao Limite!!';
+                    insulina.className = "card-header card-header-warning card-header-icon";
+                    icone3.innerHTML = "warning";
+                }
+                else if(resposta.temperatura3 >-15 && resposta.temperatura3 < -5){
+                    s_insul.style.color = 'gray';
+                    t3.style.color = 'black';
+                    s_insul.innerHTML = 'dentro do limite';
+                    insulina.className = "card-header card-header-success card-header-icon";
+                    icone3.innerHTML = "ac_unit";
+                }

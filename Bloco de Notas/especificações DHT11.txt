@@ -1,0 +1,10 @@
+Características do HDT11
+
+Baixo custo
+Tensão de alimentação de 3V a 5V
+2.5mA de corrente máxima durante a conversão
+Bom para medir umidade entre 20% e 90%, com 5% de precisão
+Bom para medir temperaturas entre 0 e 50°C, com +-2°C de precisão
+Taxa de amostragem de até 1Hz (1 leitura por segundo)
+Dimensões: 15.5mm x 12mm x 5.5mm
+4 pinos com 0.1? de espaçamento entre eles
